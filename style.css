@@ -1,0 +1,67 @@
+body {
+    margin:0;
+    background-color: blue;
+}
+
+.wrapper {
+    height: 100vh;
+}
+
+.header p {
+    background-color: blue;
+    color: white;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    height: auto;
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.textbox p {
+    background-color: blue;
+    color: white;
+    padding: 100px 100px 100px 100px;
+    text-align: center;
+    height: auto;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* BEELDEN */
+#bg1 {
+    background-image: url(src/landscape1.jpg);
+    
+}
+
+#bg2 {
+    background-image: url(src/landscape2.jpg);
+}
+
+#bg3 {
+    background-image: url(src/landscape3.jpg);
+}
+
+#bg4 {
+    background-image: url(src/landscape4.jpg);
+}
+
+/* EFFECTS */
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
